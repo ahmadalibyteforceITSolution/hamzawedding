@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f7f1e5;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #c59b4c;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #8e6330;
+  }
+}
+
+/* Islamic Geometric Background subtle texture */
+.bg-islamic-pattern {
+  background-color: #faf6ee;
+  background-image: radial-gradient(#c59b4c 0.75px, transparent 0.75px), radial-gradient(#8e6330 0.75px, #faf6ee 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  background-opacity: 0.15;
+}
+
+/* Gold Shimmer Text */
+.gold-text-gradient {
+  background: linear-gradient(135deg, #7c5825 0%, #c59b4c 35%, #f6e5ad 50%, #c59b4c 65%, #754f2c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #c59b4c 0%, #dfc384 50%, #a87932 100%);
+}
+
+.maroon-gradient-bg {
+  background: linear-gradient(135deg, #7a1526 0%, #9e1f36 50%, #540b17 100%);
+}
+
+/* Royal Gold Borders */
+.royal-border {
+  border: 2px solid transparent;
+  border-image: linear-gradient(135deg, #c59b4c, #f6e5ad, #c59b4c) 1;
+}
+
+.royal-box-shadow {
+  box-shadow: 0 15px 35px -5px rgba(117, 79, 44, 0.15), 0 0 15px 2px rgba(197, 155, 76, 0.1);
+}
+
+/* Animated glowing lantern */
+@keyframes lanternGlow {
+  0%, 100% {
+    filter: drop-shadow(0 0 6px rgba(234, 179, 8, 0.4)) drop-shadow(0 0 12px rgba(202, 138, 4, 0.2));
+  }
+  50% {
+    filter: drop-shadow(0 0 14px rgba(234, 179, 8, 0.7)) drop-shadow(0 0 24px rgba(202, 138, 4, 0.4));
+  }
+}
+
+.lantern-glow {
+  animation: lanternGlow 3s ease-in-out infinite;
+}
+
+/* Envelope 3D perspectives */
+.perspective-1000 {
+  perspective: 1000px;
+}
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+.backface-hidden {
+  backface-visibility: hidden;
+}
