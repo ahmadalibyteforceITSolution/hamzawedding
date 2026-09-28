@@ -56,6 +56,25 @@
 
         </div>
 
+        <!-- Query Contact Banner -->
+        <div class="mt-8 p-4 rounded-2xl bg-white/90 border border-[#c59b4c] shadow-md flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
+          <div class="flex items-center gap-2.5">
+            <span class="text-2xl">📱</span>
+            <div>
+              <p class="font-serif font-bold text-[#771e30] text-sm">For Any Query or Assistance</p>
+              <p class="text-xs text-[#754f2c]">Please message or call: <strong class="text-[#771e30]">+92 308 4195221</strong></p>
+            </div>
+          </div>
+          <a
+            href="https://wa.me/923084195221?text=Assalam-o-Alaikum!%20I%20have%20a%20query%20regarding%20the%20Walima%20Ceremony."
+            target="_blank"
+            class="px-4 py-2 rounded-xl bg-[#25D366] hover:bg-[#1ebd5b] text-white text-xs font-bold transition-all shadow flex items-center gap-1.5 active:scale-95"
+          >
+            <span>💬</span>
+            <span>Send Query on WhatsApp</span>
+          </a>
+        </div>
+
         <!-- Quote / Ayat at bottom -->
         <div class="mt-8 text-center border-t border-[#c59b4c]/30 pt-6">
           <p class="font-serif italic text-xs sm:text-sm text-[#754f2c]">

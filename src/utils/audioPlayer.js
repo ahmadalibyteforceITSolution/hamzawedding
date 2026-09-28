@@ -4,7 +4,7 @@ export const audioState = reactive({
   isPlaying: false,
   volume: 0.6,
   isMuted: false,
-  trackName: 'Royal Walima Shehnai Melody',
+  trackName: 'Aaj Mere Yaar Ki Shaadi Hai',
   hasInteracted: false,
 });
 

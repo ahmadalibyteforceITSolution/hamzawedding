@@ -56,6 +56,23 @@
                 <p class="mt-0.5 text-[#754f2c]">7:00 PM In the Evening (Punctuality is requested)</p>
               </div>
             </div>
+
+            <!-- Query & Assistance Helpline -->
+            <div class="flex items-start gap-3 pt-2 border-t border-[#c59b4c]/30">
+              <span class="text-lg mt-0.5">📞</span>
+              <div>
+                <p class="font-bold text-[#771e30]">Questions or Venue Guidance?</p>
+                <p class="mt-0.5 text-xs text-[#754f2c]">Feel free to call or WhatsApp anytime:</p>
+                <a 
+                  href="https://wa.me/923084195221?text=Assalam-o-Alaikum!%20I%20have%20a%20query%20regarding%20Hamza%20%26%20Laiba's%20Walima%20Ceremony." 
+                  target="_blank" 
+                  class="inline-flex items-center gap-1.5 mt-1.5 px-3 py-1.5 rounded-lg bg-[#25D366]/10 border border-[#25D366]/40 text-[#128C7E] font-bold text-xs hover:bg-[#25D366] hover:text-white transition-all shadow-sm"
+                >
+                  <span>💬</span>
+                  <span>WhatsApp: +92 308 4195221</span>
+                </a>
+              </div>
+            </div>
           </div>
 
           <!-- Buttons: Google Maps & Copy Address -->

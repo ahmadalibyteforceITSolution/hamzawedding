@@ -18,9 +18,9 @@
       </div>
 
       <!-- Info -->
-      <div class="flex-1 min-w-[120px] select-none">
-        <p class="text-[10px] uppercase font-bold text-[#8e6330] tracking-wider">Background Music</p>
-        <p class="font-serif text-xs font-bold text-[#771e30] truncate max-w-[140px]">
+      <div class="flex-1 min-w-[170px] sm:min-w-[200px] select-none">
+        <p class="text-[10px] uppercase font-bold text-[#8e6330] tracking-wider">Wedding Music 💍</p>
+        <p class="font-serif text-xs font-bold text-[#771e30] max-w-[220px] sm:max-w-[280px]">
           {{ audioState.trackName }}
         </p>
         
