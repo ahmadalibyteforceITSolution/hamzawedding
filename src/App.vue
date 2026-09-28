@@ -67,11 +67,14 @@
       </div>
     </footer>
 
+    <!-- Hidden YouTube Audio Player (Audio only, 100% hidden video) -->
+    <div id="yt-hidden-audio-player" class="fixed -left-[9999px] -top-[9999px] w-1 h-1 opacity-0 pointer-events-none overflow-hidden" aria-hidden="true"></div>
+
   </div>
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, onMounted } from 'vue';
 import Navbar from './components/Navbar.vue';
 import HeroSection from './components/HeroSection.vue';
 import CountdownSection from './components/CountdownSection.vue';
@@ -84,9 +87,14 @@ import EnvelopeModal from './components/EnvelopeModal.vue';
 import CardViewerModal from './components/CardViewerModal.vue';
 import AudioPlayerBar from './components/AudioPlayerBar.vue';
 import PetalsCanvas from './components/PetalsCanvas.vue';
+import { initYouTubeAudio } from './utils/audioPlayer.js';
 
 const envelopeRef = ref(null);
 const cardViewerRef = ref(null);
+
+onMounted(() => {
+  initYouTubeAudio();
+});
 
 function openEnvelope() {
   if (envelopeRef.value) {

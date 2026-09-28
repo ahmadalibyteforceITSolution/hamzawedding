@@ -63,14 +63,15 @@
             <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-[#754f2c] to-[#9e1f36] text-white flex items-center justify-center text-2xl shadow mb-4">
               🎵
             </div>
-            <h3 class="font-serif font-bold text-[#771e30] text-lg">Aaj Mere Yaar Ki Shaadi Hai</h3>
+            <h3 class="font-serif font-bold text-[#771e30] text-lg">Wedding Sehra</h3>
             <p class="text-xs text-[#754f2c] mt-1">
-              Download the celebratory wedding anthem audio with festive Dholak & Brass.
+              Mazhar Rahi & Fiza Ali • Punjabi Wedding Song
             </p>
           </div>
           <a
-            href="/assets/wedding-music.wav"
-            download="Aaj-Mere-Yaar-Ki-Shaadi-Hai.wav"
+            href="https://youtu.be/HD4UtsmAV4Y"
+            target="_blank"
+            rel="noopener noreferrer"
             @click="playCelebrateSfx"
             class="mt-6 w-full py-2.5 rounded-xl bg-[#754f2c] text-white text-xs font-bold shadow hover:bg-[#624127] transition-all flex items-center justify-center gap-2 active:scale-95"
           >
