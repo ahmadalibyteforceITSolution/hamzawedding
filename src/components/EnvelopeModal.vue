@@ -95,10 +95,8 @@ function openEnvelope() {
   isOpen.value = false;
   emit('opened');
 
-  // Attempt to play gentle wedding music after interaction
-  setTimeout(() => {
-    playMusic();
-  }, 400);
+  // Start wedding music on direct user gesture
+  playMusic();
 }
 
 defineExpose({

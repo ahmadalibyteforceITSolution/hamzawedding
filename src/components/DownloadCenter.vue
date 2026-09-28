@@ -57,26 +57,25 @@
           </button>
         </div>
 
-        <!-- 3. Wedding Music Track -->
+        <!-- 3. Venue Location & Navigation -->
         <div class="bg-white rounded-2xl p-6 border-2 border-[#c59b4c]/40 shadow-lg flex flex-col justify-between hover:border-[#c59b4c] transition-all hover:-translate-y-1">
           <div>
             <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-[#754f2c] to-[#9e1f36] text-white flex items-center justify-center text-2xl shadow mb-4">
-              🎵
+              📍
             </div>
-            <h3 class="font-serif font-bold text-[#771e30] text-lg">Wedding Sehra</h3>
+            <h3 class="font-serif font-bold text-[#771e30] text-lg">Hotel Dua Event Hall</h3>
             <p class="text-xs text-[#754f2c] mt-1">
-              Mazhar Rahi & Fiza Ali • Punjabi Wedding Song
+              Poonch Road, Samanabad, Lahore, Pakistan. Open direct turn-by-turn navigation.
             </p>
           </div>
           <a
-            href="https://youtu.be/HD4UtsmAV4Y"
+            href="https://maps.google.com/?q=Hotel+Dua+Event+Marriage+Hall+Poonch+Road+Samanabad+Lahore"
             target="_blank"
             rel="noopener noreferrer"
-            @click="playCelebrateSfx"
             class="mt-6 w-full py-2.5 rounded-xl bg-[#754f2c] text-white text-xs font-bold shadow hover:bg-[#624127] transition-all flex items-center justify-center gap-2 active:scale-95"
           >
-            <span>📥</span>
-            <span>Download Music (WAV)</span>
+            <span>🗺️</span>
+            <span>Get Venue Directions</span>
           </a>
         </div>
 
